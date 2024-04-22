@@ -164,7 +164,7 @@
     <nav id="primary-header" class="navbar navbar-expand-lg py-3">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img src="images/icon logo.png" class="logo img-fluid" style="height: 70px;">
+          <img src="images/main-logo.png" class="logo img-fluid">
         </a>
         <button class="navbar-toggler border-0 d-flex d-lg-none order-3 p-2 shadow-none" type="button"
           data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false">
@@ -200,9 +200,9 @@
                         class="badge bg-secondary">Pro</span></a></li>
                   <li class="py-1"><a href="gallery.html" class="dropdown-item">Gallery <span
                         class="badge bg-secondary">Pro</span></a></li>
-                  <li class="py-1"><a href="faq.html" class="dropdown-item">FAQs <span
+                  <li class="py-1"><a href="faq.html" class="dropdown-item active">FAQs <span
                         class="badge bg-secondary">Pro</span></a></li>
-                  <li class="py-1"><a href="contact.html" class="dropdown-item active">Contact <span
+                  <li class="py-1"><a href="contact.html" class="dropdown-item">Contact <span
                         class="badge bg-secondary">Pro</span></a></li>
                   <li class="py-1"><a href="review.html" class="dropdown-item">Reviews <span
                         class="badge bg-secondary">Pro</span></a></li>
@@ -245,7 +245,7 @@
                 </ul>
               </li>
               <li class="nav-item px-3 py-2 py-lg-0">
-                <a class="nav-link p-0 active" href="contact.html">Contact</a>
+                <a class="nav-link p-0" href="contact.html">Contact</a>
               </li>
               <li class="nav-item px-3 py-2 py-lg-0">
                 <a class="nav-link p-0 fw-bold text-uppercase"
@@ -281,113 +281,209 @@
     style="background-image: url(images/testimonial-bg.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;">
 
     <div class="d-none d-md-flex justify-content-between position-absolute w-100 px-5 pt-5 mt-lg-5">
-      <div> <iconify-icon icon="solar:cloud-sun-2-outline"
-          class="icon-float1 text-info-emphasis opacity-75"></iconify-icon></div>
+      <div> <iconify-icon icon="solar:cloud-sun-2-outline" class="icon-float1 text-info-emphasis"></iconify-icon></div>
       <div> </div>
       <div> </div>
       <div> </div>
-      <div> <iconify-icon icon="solar:ufo-outline" class="icon-float2 text-warning opacity-75"></iconify-icon> </div>
+      <div> <iconify-icon icon="solar:sun-2-outline" class="icon-float2 text-danger"></iconify-icon> </div>
       <div> </div>
-      <div> <iconify-icon icon="ph:rainbow-cloud" class="icon-float1 text-success opacity-75"></iconify-icon></div>
+      <div> <iconify-icon icon="ph:rainbow-cloud" class="icon-float1 text-success"></iconify-icon></div>
       <div> </div>
-      <div> <iconify-icon icon="solar:sun-2-outline" class="icon-float2 text-danger opacity-75"></iconify-icon> </div>
+      <div> <iconify-icon icon="solar:ufo-outline" class="icon-float2 text-warning"></iconify-icon> </div>
     </div>
 
     <div class="container padding-medium">
       <div class="hero-content ">
-        <h2 class="banner-title display-2 text-white">Contact Us</h2>
+        <h2 class="banner-title display-2 text-white">FAQs</h2>
         <nav class="breadcrumb">
           <a class="breadcrumb-item nav-link text-white banner-title" href="index.html">Home</a>
           <a class="breadcrumb-item nav-link text-white banner-title" href="#">Pages</a>
-          <span class="breadcrumb-item text-white banner-title active" aria-current="page">Contact</span>
+          <span class="breadcrumb-item text-white banner-title active" aria-current="page">FAQs</span>
         </nav>
       </div>
     </div>
   </section>
 
-  <section class="contact-us">
+  <section class="faqs-wrap ">
     <div class="container padding-medium">
       <div class="row">
-        <div class="contact-info col-lg-6">
-          <h2>Contact Information</h2>
-          <p>Tortor dignissim convallis aenean et tortor at risus viverra adipiscing.</p>
-          <div class="page-content d-flex flex-wrap">
-            <div class="col-lg-6 col-sm-12">
-              <div class="content-box text-dark pe-4">
-                <h4 class="mb-2">Office</h4>
-                <p><iconify-icon class="text-primary fs-5 me-2" icon="mdi:location"
-                    style="vertical-align:text-bottom"></iconify-icon>730 Glenstone, Springfield, USA</p>
-                <p><iconify-icon class="text-primary fs-5 me-2" icon="solar:phone-bold"
-                    style="vertical-align:text-bottom"></iconify-icon>(510)710-3464</p>
-                <p><iconify-icon class="text-primary fs-5 me-2" icon="ic:baseline-email"
-                    style="vertical-align:text-bottom"></iconify-icon> info@yourwebsite.com </p>
+        <main class="col-md-8 pe-md-5">
+          <h2 class="mb-3">Frequently asked questions</h2>
+
+          <p>Malesuada nunc vel risus commodo viverra. Viverra accumsan in nisl nisi. Pretium nibh ipsum
+            consequat
+            nisl
+            vel pretium. Tortor dignissim convallis aenean et tortor at risus viverra adipiscing.</p>
+          <div class="page-content my-5">
+            <div class="accordion" id="accordion">
+              <h2 class="text-center mt-5 mb-3">General Information</h2>
+              <div class="accordion-item rounded-3 mb-3">
+                <h4 class="text-capitalize accordion-header">
+                  <button class="accordion-button bg-transparent focus-transparent text-capitalize shadow-none"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                    aria-controls="collapseOne">
+                    What services do you offer?
+                  </button>
+                </h4>
+                <div id="collapseOne" class="accordion-collapse border-0 collapse show" data-bs-parent="#accordion">
+                  <div class="accordion-body pt-0">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate itaque quas sunt eveniet,
+                      temporibus cum officiis? Repellendus possimus sed ratione tempora tenetur quas soluta delectus,
+                      suscipit quos, voluptatum dolorum illo.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item border-top rounded-3 mb-3">
+                <h4 class="text-capitalize accordion-header">
+                  <button
+                    class="accordion-button bg-transparent collapsed focus-transparent text-capitalize shadow-none"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                    aria-controls="collapseTwo">
+                    How does your pricing work?
+                  </button>
+                </h4>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                  <div class="accordion-body pt-0">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate itaque quas sunt eveniet,
+                      temporibus cum officiis? Repellendus possimus sed ratione tempora tenetur quas soluta delectus,
+                      suscipit quos, voluptatum dolorum illo.</p>
+                  </div>
+                </div>
+              </div>
+              <h2 class="text-center mt-5 mb-3">Enrolling and Contacting</h2>
+              <div class="accordion-item border-top rounded-3 mb-3">
+                <h4 class="text-capitalize accordion-header">
+                  <button
+                    class="accordion-button bg-transparent collapsed focus-transparent text-capitalize shadow-none"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                    aria-controls="collapseThree">
+                    How can I contact you?
+                  </button>
+                </h4>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                  <div class="accordion-body pt-0">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate itaque quas sunt eveniet,
+                      temporibus cum officiis? Repellendus possimus sed ratione tempora tenetur quas soluta delectus,
+                      suscipit quos, voluptatum dolorum illo.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item border-top rounded-3 mb-3">
+                <h4 class="text-capitalize accordion-header">
+                  <button
+                    class="accordion-button bg-transparent collapsed focus-transparent text-capitalize shadow-none"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                    aria-controls="collapseFour">
+                    Can I reschedule or cancel a enrollment?
+                  </button>
+                </h4>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                  <div class="accordion-body pt-0">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate itaque quas sunt eveniet,
+                      temporibus cum officiis? Repellendus possimus sed ratione tempora tenetur quas soluta delectus,
+                      suscipit quos, voluptatum dolorum illo.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item border-top rounded-3 mb-3">
+                <h4 class="text-capitalize accordion-header">
+                  <button
+                    class="accordion-button bg-transparent collapsed focus-transparent text-capitalize shadow-none"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                    aria-controls="collapseFive">
+                    Can i come in person for the enrollment?
+                  </button>
+                </h4>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                  <div class="accordion-body pt-0">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate itaque quas sunt eveniet,
+                      temporibus cum officiis? Repellendus possimus sed ratione tempora tenetur quas soluta delectus,
+                      suscipit quos, voluptatum dolorum illo.</p>
+                  </div>
+                </div>
+              </div>
+              <h2 class="text-center mt-5 mb-3">Payment and Billing</h2>
+              <div class="accordion-item border-top rounded-3 mb-3">
+                <h4 class="text-capitalize accordion-header">
+                  <button
+                    class="accordion-button bg-transparent collapsed focus-transparent text-capitalize shadow-none"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
+                    aria-controls="collapseSix">
+                    What payment methods do you accept?
+                  </button>
+                </h4>
+                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                  <div class="accordion-body pt-0">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate itaque quas sunt eveniet,
+                      temporibus cum officiis? Repellendus possimus sed ratione tempora tenetur quas soluta delectus,
+                      suscipit quos, voluptatum dolorum illo.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item border-top rounded-3 mb-3">
+                <h4 class="text-capitalize accordion-header">
+                  <button
+                    class="accordion-button bg-transparent collapsed focus-transparent text-capitalize shadow-none"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false"
+                    aria-controls="collapseSeven">
+                    Are there any additional fees?
+                  </button>
+                </h4>
+                <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                  <div class="accordion-body pt-0">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate itaque quas sunt eveniet,
+                      temporibus cum officiis? Repellendus possimus sed ratione tempora tenetur quas soluta delectus,
+                      suscipit quos, voluptatum dolorum illo.</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="col-lg-6 col-sm-12">
-              <div class="content-box text-dark">
-                <h4 class="mb-2">Management</h4>
-                <p><iconify-icon class="text-primary fs-5 me-2" icon="mdi:location"
-                    style="vertical-align:text-bottom"></iconify-icon>30 E Lake St, Chicago, USA</p>
-                <p><iconify-icon class="text-primary fs-5 me-2" icon="solar:phone-bold"
-                    style="vertical-align:text-bottom"></iconify-icon>(510)987-3216</p>
-                <p><iconify-icon class="text-primary fs-5 me-2" icon="ic:baseline-email"
-                    style="vertical-align:text-bottom"></iconify-icon>contactmanagement@website.com </p>
-              </div>
-            </div>
+
           </div>
-        </div>
-        <div class="inquiry-item col-lg-6 mt-5 mt-md-0">
-          <div class="rounded-5">
-            <h2>Get in Touch</h2>
-            <p>Use the form below to get in touch with us.</p>
-            <form id="form" class="form-group flex-wrap mt-4">
-              <div class="form-input col-lg-12 d-flex mb-3">
-                <input type="text" name="email" placeholder="Write Your Name Here" class="form-control ps-3 me-3">
-                <input type="text" name="email" placeholder="Write Your Email Here" class="form-control ps-3">
-              </div>
-              <div class="col-lg-12 mb-3">
-                <input type="text" name="email" placeholder="Phone Number" class="form-control ps-3">
-              </div>
-              <div class="col-lg-12 mb-3">
-                <input type="text" name="email" placeholder="Write Your Subject Here" class="form-control ps-3">
-              </div>
-              <div class="col-lg-12 mb-3">
-                <textarea placeholder="Write Your Message Here" class="form-control ps-3"
-                  style="height:150px;"></textarea>
-              </div>
-            </form>
+        </main>
+        <div class="col-md-4 inquiry-item">
+          <h2 class="section-title mb-3">Ask us anything</h2>
+          <p>Call Us +123 987 456 or just drop us your message at <a
+              href="mailto:contact@yourcompany.com">contact@yourcompany.com</a>. You can directly message
+            us. </p>
+          <form id="form" class="form-group flex-wrap">
+            <div class="form-input col-lg-12 d-flex mb-3">
+              <input type="text" name="email" placeholder="Write Your Name Here" class="form-control ps-3 me-3">
+              <input type="text" name="email" placeholder="Write Your Email Here" class="form-control ps-3">
+            </div>
+            <div class="col-lg-12 mb-3">
+              <input type="text" name="email" placeholder="Phone Number" class="form-control ps-3">
+            </div>
+            <div class="col-lg-12 mb-3">
+              <input type="text" name="email" placeholder="Write Your Subject Here" class="form-control ps-3">
+            </div>
+            <div class="col-lg-12 mb-3">
+              <textarea placeholder="Write Your Message Here" class="form-control ps-3" rows="8"></textarea>
+            </div>
             <div class="d-grid">
-              <button class="btn btn-primary px-5 py-3 ">Submit</button>
+              <button class="btn btn-primary px-5 py-3">Submit</button>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="google-map">
-    <div class="mapouter">
-      <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
-          src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
-          frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-          href="https://getasearch.com/fmovies"></a><br>
-        <style>
-          .mapouter {
-            position: relative;
-            text-align: right;
-            height: 500px;
-            width: 100%;
-          }
-        </style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
-        <style>
-          .gmap_canvas {
-            overflow: hidden;
-            background: none !important;
-            height: 500px;
-            width: 100%;
-          }
-        </style>
+  <section id="cta" class="jarallax"
+    style="background-image: url(images/cta.jpg); background-repeat: no-repeat; background-position: center;">
+    <div class="container padding-medium">
+
+      <div class="offset-md-3 col-md-6 text-center ">
+        <div class="section-title">
+          <h2 class="display-4 mb-3 banner-title">Are you going to enroll your child to a class?</h2>
+        </div>
+
+        <p class="banner-title">Pretium turpis faucibus adipiscing duis. Id quis tristique mi vitae nec. In et in
+          praesent pellentesque sit porta ridiculus faucibus. </p>
+        <a class="btn btn-primary mt-3" href="enrollment.html">Read More</a>
       </div>
+
+    </div>
     </div>
   </section>
 

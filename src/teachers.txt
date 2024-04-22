@@ -164,7 +164,7 @@
     <nav id="primary-header" class="navbar navbar-expand-lg py-3">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img src="images/icon logo.png" class="logo img-fluid" style="height: 70px;">
+          <img src="images/main-logo.png" class="logo img-fluid">
         </a>
         <button class="navbar-toggler border-0 d-flex d-lg-none order-3 p-2 shadow-none" type="button"
           data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false">
@@ -194,7 +194,7 @@
                         class="badge bg-secondary">Pro</span></a></li>
                   <li class="py-1"><a href="enrollment.html" class="dropdown-item">Enrollment
                       <span class="badge bg-secondary">Pro</span></a></li>
-                  <li class="py-1"><a href="teachers.html" class="dropdown-item">Teachers <span
+                  <li class="py-1"><a href="teachers.html" class="dropdown-item active">Teachers <span
                         class="badge bg-secondary">Pro</span></a></li>
                   <li class="py-1"><a href="pricing.html" class="dropdown-item">Price Plan <span
                         class="badge bg-secondary">Pro</span></a></li>
@@ -202,7 +202,7 @@
                         class="badge bg-secondary">Pro</span></a></li>
                   <li class="py-1"><a href="faq.html" class="dropdown-item">FAQs <span
                         class="badge bg-secondary">Pro</span></a></li>
-                  <li class="py-1"><a href="contact.html" class="dropdown-item active">Contact <span
+                  <li class="py-1"><a href="contact.html" class="dropdown-item">Contact <span
                         class="badge bg-secondary">Pro</span></a></li>
                   <li class="py-1"><a href="review.html" class="dropdown-item">Reviews <span
                         class="badge bg-secondary">Pro</span></a></li>
@@ -245,7 +245,7 @@
                 </ul>
               </li>
               <li class="nav-item px-3 py-2 py-lg-0">
-                <a class="nav-link p-0 active" href="contact.html">Contact</a>
+                <a class="nav-link p-0" href="contact.html">Contact</a>
               </li>
               <li class="nav-item px-3 py-2 py-lg-0">
                 <a class="nav-link p-0 fw-bold text-uppercase"
@@ -295,69 +295,282 @@
 
     <div class="container padding-medium">
       <div class="hero-content ">
-        <h2 class="banner-title display-2 text-white">Contact Us</h2>
+        <h2 class="banner-title display-2 text-white">Teachers</h2>
         <nav class="breadcrumb">
           <a class="breadcrumb-item nav-link text-white banner-title" href="index.html">Home</a>
           <a class="breadcrumb-item nav-link text-white banner-title" href="#">Pages</a>
-          <span class="breadcrumb-item text-white banner-title active" aria-current="page">Contact</span>
+          <span class="breadcrumb-item text-white banner-title active" aria-current="page">Teachers</span>
         </nav>
       </div>
     </div>
   </section>
 
-  <section class="contact-us">
-    <div class="container padding-medium">
+  <section id="instructors" class="padding-medium">
+    <div class="container">
+      <h2 class="display-4 text-center mb-5">Our Teachers</h2>
+
       <div class="row">
-        <div class="contact-info col-lg-6">
-          <h2>Contact Information</h2>
-          <p>Tortor dignissim convallis aenean et tortor at risus viverra adipiscing.</p>
-          <div class="page-content d-flex flex-wrap">
-            <div class="col-lg-6 col-sm-12">
-              <div class="content-box text-dark pe-4">
-                <h4 class="mb-2">Office</h4>
-                <p><iconify-icon class="text-primary fs-5 me-2" icon="mdi:location"
-                    style="vertical-align:text-bottom"></iconify-icon>730 Glenstone, Springfield, USA</p>
-                <p><iconify-icon class="text-primary fs-5 me-2" icon="solar:phone-bold"
-                    style="vertical-align:text-bottom"></iconify-icon>(510)710-3464</p>
-                <p><iconify-icon class="text-primary fs-5 me-2" icon="ic:baseline-email"
-                    style="vertical-align:text-bottom"></iconify-icon> info@yourwebsite.com </p>
-              </div>
+        <div class="col-md-4 mt-5 ">
+          <div class="team-member position-relative">
+            <div class="image-holder zoom-effect">
+              <img src="images/team-item3.jpg" alt="team member" class="img-fluid">
+              <ul class="social-links list-unstyled position-absolute">
+                <li>
+                  <a href="#">
+                    <svg class="facebook text-white ms-1 mt-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="twitter text-white ms-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="instagram text-white ms-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="linkedin text-white ms-1 mb-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </div>
-            <div class="col-lg-6 col-sm-12">
-              <div class="content-box text-dark">
-                <h4 class="mb-2">Management</h4>
-                <p><iconify-icon class="text-primary fs-5 me-2" icon="mdi:location"
-                    style="vertical-align:text-bottom"></iconify-icon>30 E Lake St, Chicago, USA</p>
-                <p><iconify-icon class="text-primary fs-5 me-2" icon="solar:phone-bold"
-                    style="vertical-align:text-bottom"></iconify-icon>(510)987-3216</p>
-                <p><iconify-icon class="text-primary fs-5 me-2" icon="ic:baseline-email"
-                    style="vertical-align:text-bottom"></iconify-icon>contactmanagement@website.com </p>
-              </div>
+            <div class="member-info pt-4 ">
+              <h2 class="lh-sm m-0 ">Genna Fisher</h2>
+              <span class="text-primary fs-6">Owner and Director</span>
+              <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, libero
+                corrupti. Nemo quis sint commodi nulla praesentium recusandae molestiae, ducimus
+                incidunt.</p>
             </div>
           </div>
         </div>
-        <div class="inquiry-item col-lg-6 mt-5 mt-md-0">
-          <div class="rounded-5">
-            <h2>Get in Touch</h2>
-            <p>Use the form below to get in touch with us.</p>
-            <form id="form" class="form-group flex-wrap mt-4">
-              <div class="form-input col-lg-12 d-flex mb-3">
-                <input type="text" name="email" placeholder="Write Your Name Here" class="form-control ps-3 me-3">
-                <input type="text" name="email" placeholder="Write Your Email Here" class="form-control ps-3">
-              </div>
-              <div class="col-lg-12 mb-3">
-                <input type="text" name="email" placeholder="Phone Number" class="form-control ps-3">
-              </div>
-              <div class="col-lg-12 mb-3">
-                <input type="text" name="email" placeholder="Write Your Subject Here" class="form-control ps-3">
-              </div>
-              <div class="col-lg-12 mb-3">
-                <textarea placeholder="Write Your Message Here" class="form-control ps-3"
-                  style="height:150px;"></textarea>
-              </div>
-            </form>
-            <div class="d-grid">
-              <button class="btn btn-primary px-5 py-3 ">Submit</button>
+        <div class="col-md-4 mt-5 ">
+          <div class="team-member position-relative">
+            <div class="image-holder zoom-effect">
+              <img src="images/team-item2.jpg" alt="team member" class="img-fluid">
+              <ul class="social-links list-unstyled position-absolute">
+                <li>
+                  <a href="#">
+                    <svg class="facebook text-white ms-1 mt-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="twitter text-white ms-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="instagram text-white ms-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="linkedin text-white ms-1 mb-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="member-info pt-4 ">
+              <h2 class="lh-sm m-0 ">Rebeca Saturn</h2>
+              <span class="text-primary fs-6">Assistant Director</span>
+              <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, libero
+                corrupti. Nemo quis sint commodi nulla praesentium recusandae molestiae, ducimus
+                incidunt.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-5 ">
+          <div class="team-member position-relative">
+            <div class="image-holder zoom-effect">
+              <img src="images/team-item6.jpg" alt="team member" class="img-fluid">
+              <ul class="social-links list-unstyled position-absolute">
+                <li>
+                  <a href="#">
+                    <svg class="facebook text-white ms-1 mt-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="twitter text-white ms-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="instagram text-white ms-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="linkedin text-white ms-1 mb-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="member-info pt-4 ">
+              <h2 class="lh-sm m-0 ">ester ian</h2>
+              <span class="text-primary fs-6">Kindergarten Lead Teacher</span>
+              <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, libero
+                corrupti. Nemo quis sint commodi nulla praesentium recusandae molestiae, ducimus
+                incidunt.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-5 ">
+          <div class="team-member position-relative">
+            <div class="image-holder zoom-effect">
+              <img src="images/team-item1.jpg" alt="team member" class="img-fluid">
+              <ul class="social-links list-unstyled position-absolute">
+                <li>
+                  <a href="#">
+                    <svg class="facebook text-white ms-1 mt-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="twitter text-white ms-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="instagram text-white ms-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="linkedin text-white ms-1 mb-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="member-info pt-4 ">
+              <h2 class="lh-sm m-0 ">Alex Smith</h2>
+              <span class="text-primary fs-6">Toddler Lead Teacher</span>
+              <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, libero
+                corrupti. Nemo quis sint commodi nulla praesentium recusandae molestiae, ducimus
+                incidunt.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-5 ">
+          <div class="team-member position-relative">
+            <div class="image-holder zoom-effect">
+              <img src="images/team-item5.jpg" alt="team member" class="img-fluid">
+              <ul class="social-links list-unstyled position-absolute">
+                <li>
+                  <a href="#">
+                    <svg class="facebook text-white ms-1 mt-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="twitter text-white ms-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="instagram text-white ms-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="linkedin text-white ms-1 mb-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="member-info pt-4 ">
+              <h2 class="lh-sm m-0 ">Allena Will</h2>
+              <span class="text-primary fs-6">Pre-K Assistant Teacher</span>
+              <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, libero
+                corrupti. Nemo quis sint commodi nulla praesentium recusandae molestiae, ducimus
+                incidunt.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-5 ">
+          <div class="team-member position-relative">
+            <div class="image-holder zoom-effect">
+              <img src="images/team-item4.jpg" alt="team member" class="img-fluid">
+              <ul class="social-links list-unstyled position-absolute">
+                <li>
+                  <a href="#">
+                    <svg class="facebook text-white ms-1 mt-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="twitter text-white ms-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="instagram text-white ms-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="linkedin text-white ms-1 mb-1" width="30" height="30" aria-hidden="true">
+                      <use xlink:href="#linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="member-info pt-4 ">
+              <h2 class="lh-sm m-0 ">Milly Taylor</h2>
+              <span class="text-primary fs-6">Preschool Lead Teacher</span>
+              <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, libero
+                corrupti. Nemo quis sint commodi nulla praesentium recusandae molestiae, ducimus
+                incidunt.</p>
             </div>
           </div>
         </div>
@@ -365,29 +578,21 @@
     </div>
   </section>
 
-  <section class="google-map">
-    <div class="mapouter">
-      <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
-          src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
-          frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-          href="https://getasearch.com/fmovies"></a><br>
-        <style>
-          .mapouter {
-            position: relative;
-            text-align: right;
-            height: 500px;
-            width: 100%;
-          }
-        </style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
-        <style>
-          .gmap_canvas {
-            overflow: hidden;
-            background: none !important;
-            height: 500px;
-            width: 100%;
-          }
-        </style>
+  <section id="cta" class="jarallax"
+    style="background-image: url(images/cta.jpg); background-repeat: no-repeat; background-position: center;">
+    <div class="container padding-medium">
+
+      <div class="offset-md-3 col-md-6 text-center ">
+        <div class="section-title">
+          <h2 class="display-4 mb-3 banner-title">Are you going to enroll your child to a class?</h2>
+        </div>
+
+        <p class="banner-title">Pretium turpis faucibus adipiscing duis. Id quis tristique mi vitae nec. In et in
+          praesent pellentesque sit porta ridiculus faucibus. </p>
+        <a class="btn btn-primary mt-3" href="enrollment.html">Read More</a>
       </div>
+
+    </div>
     </div>
   </section>
 
